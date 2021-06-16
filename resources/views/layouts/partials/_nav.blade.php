@@ -6,10 +6,10 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
+        <li class="{{ set_active_route('home_path') }}">
           <a class="nav-link" aria-current="page" href="{{route('home_path')}}">Home</a>
         </li>
-        <li class="nav-item">
+        <li class="{{ set_active_route('about_path') }}">
           <a class="nav-link" href="{{Route('about_path')}}">About</a>
         </li>
         <li class="nav-item">
